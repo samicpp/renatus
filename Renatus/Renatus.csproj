@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Renatus</AssemblyName>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <RootNamespace>Samicpp.Renatus</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- <PublishTrimmed>true</PublishTrimmed> -->
+    <!-- <RuntimeIdentifiers>win-x64;win-x86;linux-x64;linux-arm;linux-arm64;osx-x64;osx-arm64;android-arm64</RuntimeIdentifiers> -->
+    <!-- <PublishSingleFile>true</PublishSingleFile> -->
+    <!-- <SelfContained>true</SelfContained> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../dotnet-http/dotnet-http.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+</Project>
